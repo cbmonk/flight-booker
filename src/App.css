@@ -209,3 +209,47 @@ body, html {
 .shake {
   animation: shake 0.8s ease-in-out; /* Match the duration with setTimeout in handleBookNow */
 }
+
+/* ... Previous CSS ... */
+
+.booking-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-selector {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px; /* Increased margin for more space from the textbox */
+}
+
+.time-selector button {
+  background: #f0f2f5;
+  color: #333;
+  border: none;
+  padding: 15px 30px; /* Increased padding to make buttons bigger */
+  margin: 0 10px; /* Increased margin between buttons */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: 'Neuropol X', sans-serif;
+  font-size: 1.2em; /* Increased font size for boldness */
+  font-weight: bold; /* Made text bold */
+  border-radius: 5px; /* Added for a more button-like appearance */
+}
+
+.time-selector button:hover {
+  background: #0066cc;
+  color: white;
+}
+
+.time-selector button.selected {
+  background: #0066cc;
+  color: white;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.booking-form {
+  width: 100%;
+}

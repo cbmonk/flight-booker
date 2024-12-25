@@ -74,3 +74,14 @@ A one-click flight booking web app with a modern UI.
 - Clone the repository
 - Run `npm install` to install dependencies
 - Use `npm start` to run the app
+
+## Basic features
+- One destination input field
+- Default departure from user's location
+- Automatic flight selection (cheapest or quickest)
+- Pre-stored payment method for one-click checkout
+- Guest checkout or simple social login
+- Basic flight booking functionality
+- Minimal email or in-app booking confirmation
+- Simple, responsive design for web and mobile
+- Stripe integration for payments
