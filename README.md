@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Flight Booker
+A one-click flight booking web app with a modern UI.
+## Installation
+- Clone the repository
+- Run `npm install` to install dependencies
+- Use `npm start` to run the app
